@@ -1,7 +1,11 @@
 
 body{
-	font-family: raleway;
+	font-family: Roboto;
 }
+
+.policeShrikhand{
+	font-family: Shrikhand;
+	}
 
 
 .titleContainer{ 
@@ -72,6 +76,10 @@ body{
 	position: relative;
 
 }
+
+.marginTitleMenu{
+		margin-bottom: 10PX;
+	}
 .cardMenu1{
   border-radius:40PX 40PX 0PX 0PX;
   position:absolute;  
@@ -162,7 +170,8 @@ body{
 }
 .textDecor{
 	margin-left: 13PX;
-	border-bottom: solid lightgreen 3PX;
+	border-bottom: solid #99E2D0
+ 3PX;
 	width: 40PX;
 }
 
@@ -342,10 +351,11 @@ opacity: 1;
 
 .iconTransition{
 	position: absolute;
-	transition: all 1s ease;
+	animation-delay: all 100s ease;
 	opacity: 0;
-	background-color: lightgreen;
-	transform: rotate(180deg);
+	background-color: #99E2D0
+;
+	transform: rotate(0deg);
 	
 	
 }
@@ -354,23 +364,25 @@ opacity: 1;
 	opacity: 1;
 	align-items: center;
 	transform: rotate(360deg);	
+	transition: all 0.5s ease;
 }
 .carreMenu21:hover .iconTransition{
 	opacity: 1;
 	align-items: center;
-	transform: rotate(360deg);	
+	transform: rotate(360deg);
+	transition: all 0.5s ease;	
 }
 .carreMenu22:hover .iconTransition{
 	opacity: 1;
 	align-items: center;
 	transform: rotate(360deg);	
+	transition: all 0.5s ease;
 }
 
 
 .iconAnimation{
-	background-color: lightgreen;
+	background-color: #99E2D0;
 	position: absolute;
-	transition : all 1s ease;
 	width: 0%;
   height: 100%;
   border-radius: 0PX 15PX 15PX 0PX;
@@ -448,7 +460,10 @@ opacity: 1;
 
 }
 
-
+.marginTitleFooter{
+margin-top: 10PX;
+margin-bottom: -5PX;
+}
 
 
 
